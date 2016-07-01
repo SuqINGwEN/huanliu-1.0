@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#ffffff">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+    
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|bottom"
+                android:background="@drawable/layou_first_item_"
+                android:layout_marginTop="15dp">
+        
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_fragment_geren_geren"
+                    android:id="@+id/textView7" />
+            </LinearLayout>
+    
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_zhucedenglu">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView6"
+                        android:src="@drawable/icon_personal_login" />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_zhucedenglu"
+                        android:id="@+id/tv_geren_username"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_xiazaiguanli">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView7"
+                        android:src="@drawable/icon_personal_download_manage" />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_xiazaiguanli"
+                        android:id="@+id/textView4"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_guankanlishi">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView8"
+                        android:src="@drawable/icon_personal_watch_history" />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_guankanlishi"
+                        android:id="@+id/textView5"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_wodeshoucang">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView9"
+                        android:src="@drawable/icon_personal_myfaverate" />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_wodeshoucang"
+                        android:id="@+id/textView6"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+            </LinearLayout>
+    
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:background="@drawable/layou_first_item_"
+                android:layout_marginTop="30dp">
+        
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/activity_fragment_geren_qita"
+                    android:id="@+id/textView8" />
+            </LinearLayout>
+    
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp">
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_shezhi">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_personal_setting"
+                        />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_shezhi"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_erweima">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        
+                        android:src="@drawable/icon_personal_qrcode"
+                         />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_erweima"
+                       
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_tuijian">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                  
+                        android:src="@drawable/icon_personal_share_friend"
+                       />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_tuijian"
+                       
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_wentifankui">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                 
+                        android:src="@drawable/icon_personal_feedback"
+                         />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_wentifankui"
+                       
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c"
+                        android:textSize="15dp" />
+                </LinearLayout>
+        
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@drawable/layou_erji_item_"
+                    android:id="@+id/fragment_geren_guanyu">
+        
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_personal_aboutme"
+                        android:id="@+id/imageView10" />
+        
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/activity_fragment_geren_guanyu"
+                      
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#ff1c1c1c" />
+                </LinearLayout>
+            </LinearLayout>
+    
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activity_fragment_geren_quit"
+                android:id="@+id/btn_geren_quit"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp" />
+        </LinearLayout>
+
+</ScrollView>

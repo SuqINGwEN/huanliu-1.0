@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_builder_edt_username"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:hint="请输入用户名!" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_builder_edt_password"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:hint="请输入密码!"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_builder_edt_againpassword"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:hint="再次确认输入密码!"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+</LinearLayout>
